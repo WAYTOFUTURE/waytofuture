@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react'; 
 import { 
   TrendingUp, 
   ShieldCheck, 
@@ -374,7 +374,8 @@ export default function App() {
                   </div>
                 ))}
 
-                <button 
+               {/*
+               <button 
                   onClick={generateAiStrategy}
                   disabled={strategyLoading}
                   className="group w-full py-4 rounded-2xl bg-gradient-to-r from-purple-600 to-indigo-600 text-white font-black text-sm flex items-center justify-center gap-3 hover:shadow-lg transition-all active:scale-95 disabled:opacity-50"
@@ -382,6 +383,7 @@ export default function App() {
                   {strategyLoading ? <Loader2 className="animate-spin" /> : <Sparkles size={18} />}
                   Get ✨ AI Strategy for this Plan
                 </button>
+                */}
               </div>
             </div>
 
