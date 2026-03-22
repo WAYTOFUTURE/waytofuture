@@ -2,8 +2,7 @@
   "name": "waytofuture",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://YOUR_GITHUB_USERNAME.github.io/waytofuture",
-  "dependencies": {
+    "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "lucide-react": "^0.378.0"
