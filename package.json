@@ -1,8 +1,8 @@
 {
-  "name": "way-to-future",
+  "name": "waytofuture",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://YOUR_GITHUB_USERNAME.github.io/way-to-future",
+  "homepage": "https://YOUR_GITHUB_USERNAME.github.io/waytofuture",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
