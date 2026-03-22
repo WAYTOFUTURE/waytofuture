@@ -591,14 +591,30 @@ export default function App() {
               </div>
 
               <div className="p-12 lg:p-20">
-                <form className="space-y-8" onSubmit={e => e.preventDefault()}>
+                <form 
+  action="https://formspree.io/f/mlgpkyqa"  //
+  method="POST"
+  className="space-y-8"
+>
                   <div className="space-y-6">
                     <div className="relative group">
-                      <input type="text" className="w-full py-4 border-b-2 border-slate-100 focus:border-blue-600 bg-transparent outline-none transition-all font-bold text-lg peer" placeholder=" " />
+                      <input 
+  type="text" 
+  name="name"
+  required
+  className="w-full py-4 border-b-2 border-slate-100 focus:border-blue-600 bg-transparent outline-none transition-all font-bold text-lg peer" 
+  placeholder=" " 
+/>
                       <label className="absolute left-0 top-4 text-slate-400 font-bold transition-all pointer-events-none peer-focus:-top-4 peer-focus:text-xs peer-focus:text-blue-600 peer-[:not(:placeholder-shown)]:-top-4 peer-[:not(:placeholder-shown)]:text-xs">Full Name</label>
                     </div>
                     <div className="relative group">
-                      <input type="tel" className="w-full py-4 border-b-2 border-slate-100 focus:border-blue-600 bg-transparent outline-none transition-all font-bold text-lg peer" placeholder=" " />
+                      <input 
+  type="tel" 
+  name="phone"
+  required
+  className="w-full py-4 border-b-2 border-slate-100 focus:border-blue-600 bg-transparent outline-none transition-all font-bold text-lg peer" 
+  placeholder=" " 
+/>
                       <label className="absolute left-0 top-4 text-slate-400 font-bold transition-all pointer-events-none peer-focus:-top-4 peer-focus:text-xs peer-focus:text-blue-600 peer-[:not(:placeholder-shown)]:-top-4 peer-[:not(:placeholder-shown)]:text-xs">Phone Number</label>
                     </div>
                   </div>
