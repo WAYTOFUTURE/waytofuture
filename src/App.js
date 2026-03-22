@@ -477,10 +477,9 @@ export default function App() {
         <span className="absolute -top-2 -right-2 bg-purple-600 text-[10px] font-bold px-2 py-1 rounded-full border-2 border-white">AI ✨</span>
       </button>
       */}
-
+      {/*
       {/* AI Chat Modal Overlay */}
-{/*
-      {isAiOpen && (
+            {isAiOpen && (
         <div className="fixed inset-0 z-[70] flex items-end sm:items-center justify-end p-0 sm:p-6 bg-slate-900/40 backdrop-blur-sm transition-all duration-300">
           <div className="w-full sm:w-[450px] h-[85vh] sm:h-[600px] bg-white sm:rounded-[2.5rem] shadow-2xl flex flex-col overflow-hidden animate-in slide-in-from-bottom-full sm:slide-in-from-right-full duration-500">
             {/* Header */}
